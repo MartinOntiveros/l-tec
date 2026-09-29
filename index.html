@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>L-TEC Premium Argentina — Cuerdas de tenis</title>
+<meta name="description" content="Cuerdas de tenis L-TEC Premium: diseño francés, fabricación alemana. Ocho modelos de co-poliéster, grips y accesorios. Envíos a todo el país desde Rosario.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&family=Source+Serif+4:ital,wght@1,400&display=swap" rel="stylesheet">
+<style>
+:root{--clay:#C4532B;--clay-d:#9E3F1F;--clay-l:#E9A07F;--green:#0E4A3A;--cream:#F4EFE6;--sand:#E8DFD0;--ink:#1B1A17;--muted:#5C554C;--body:#3D3830;--line:#E2D9CA;--pad:80px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:'Barlow',sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img,svg{display:block}
+.cond{font-family:'Barlow Condensed',sans-serif;text-transform:uppercase}
+.serif{font-family:'Source Serif 4',serif;font-style:italic}
+.wrap{max-width:1440px;margin:0 auto;padding:0 var(--pad)}
+.eyebrow{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:15px;letter-spacing:.24em;text-transform:uppercase;color:var(--clay-d)}
+h1,h2,h3{margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase}
+h2{font-size:clamp(44px,6vw,72px);line-height:.95}
+p{margin:0}
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 24px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:17px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border-radius:2px;border:2px solid transparent;cursor:pointer;transition:transform .15s,background .15s,color .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn-clay{background:var(--clay);color:#fff}.btn-clay:hover{background:var(--clay-d)}
+.btn-white{background:#fff;color:var(--clay-d)}
+.btn-ghost{border-color:#fff;color:#fff}.btn-ghost:hover{background:#fff;color:var(--clay-d)}
+.btn-green{background:var(--green);color:#fff;min-height:44px;padding:0 16px;font-size:15px}
+.btn-ink{background:var(--ink);color:#fff}
+.btn-cream{background:var(--cream);color:var(--green)}
+
+/* promo bar */
+.promo{background:var(--green);color:var(--cream);display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px 16px;padding:9px 16px;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:15px;letter-spacing:.08em;text-transform:uppercase;text-align:center}
+.promo b{background:var(--clay);color:#fff;padding:3px 10px;border-radius:2px;font-weight:600}
+
+/* nav */
+header{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line)}
+.nav{height:80px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.logo{display:flex;align-items:baseline;gap:10px;text-decoration:none}
+.logo b{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:38px;color:var(--clay)}
+.logo span{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:14px;letter-spacing:.22em;text-transform:uppercase;color:var(--green)}
+.menu{display:flex;gap:32px;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:17px;letter-spacing:.1em;text-transform:uppercase}
+.menu a{text-decoration:none;padding:6px 0;border-bottom:2px solid transparent}
+.menu a:hover{border-color:var(--clay)}
+
+/* hero */
+.hero{background:var(--clay);color:#fff;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1fr 1fr;min-height:720px}
+.hero-copy{padding:96px 0 80px;display:flex;flex-direction:column;gap:28px}
+.hero-copy .eyebrow{color:#fff;opacity:.9}
+.hero h1{font-size:clamp(64px,9vw,128px);line-height:.88;letter-spacing:-.015em}
+.hero p{max-width:520px;font-size:20px;line-height:1.5}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:8px}
+.hero .ctas .btn{min-height:56px;padding:0 30px;font-size:18px}
+.court{position:relative;min-height:560px}
+.court svg{position:absolute;inset:0;width:100%;height:100%;opacity:.85}
+.ball{position:absolute;left:46%;top:72%;width:22px;height:22px;border-radius:50%;background:#E4F24A;animation:bounce 2.4s ease-in-out infinite}
+@keyframes bounce{0%,100%{transform:translate(0,0)}50%{transform:translate(-60px,-120px)}}
+@media (prefers-reduced-motion:reduce){.ball{animation:none}}
+.featured{position:absolute;right:0;bottom:64px;width:330px;background:#fff;color:var(--ink);padding:24px;display:flex;flex-direction:column;gap:10px;border-radius:2px}
+.featured .k{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--clay-d)}
+.featured h3{font-size:34px;line-height:1}
+.featured .m{font-size:15px;color:var(--muted)}
+.featured .row{display:flex;justify-content:space-between;align-items:center;margin-top:6px}
+.featured .row a{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:15px;letter-spacing:.1em;text-transform:uppercase;color:var(--clay-d)}
+.price{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:24px}
+
+/* products */
+section{scroll-margin-top:80px}
+.sec{padding:88px 0 96px}
+.sec-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:24px 60px;margin-bottom:40px}
+.sec-head .t{display:flex;flex-direction:column;gap:12px}
+.filters{display:flex;flex-direction:column;align-items:flex-end;gap:14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{min-height:44px;padding:0 18px;border:2px solid var(--ink);background:transparent;color:var(--ink);border-radius:2px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:16px;letter-spacing:.1em;text-transform:uppercase;cursor:pointer}
+.chip span{opacity:.6}
+.chip[aria-pressed="true"]{background:var(--ink);color:#fff}
+.count{font-size:15px;color:var(--muted)}
+.grid4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.card{background:#fff;display:flex;flex-direction:column;border-radius:2px;overflow:hidden;min-height:440px;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(27,26,23,.12)}
+.card[hidden]{display:none}
+.vis{height:190px;position:relative;overflow:hidden;padding:22px;display:flex;flex-direction:column;justify-content:space-between;background-image:repeating-linear-gradient(0deg,rgba(255,255,255,.16) 0 1px,transparent 1px 25px),repeating-linear-gradient(90deg,rgba(255,255,255,.16) 0 1px,transparent 1px 30px)}
+.vis.dark-lines{background-image:repeating-linear-gradient(0deg,rgba(27,26,23,.14) 0 1px,transparent 1px 25px),repeating-linear-gradient(90deg,rgba(27,26,23,.14) 0 1px,transparent 1px 30px)}
+.vis .l{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:13px;letter-spacing:.2em;text-transform:uppercase}
+.vis .g{display:flex;align-items:baseline;gap:6px;font-family:'Barlow Condensed',sans-serif}
+.vis .g b{font-weight:800;font-size:60px;line-height:.9}
+.vis .g span{font-weight:600;font-size:20px}
+.cb{flex-grow:1;padding:20px 22px 22px;display:flex;flex-direction:column;gap:10px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding:4px 8px;background:var(--cream);color:var(--green);border-radius:2px}
+.cb h3{font-size:30px;line-height:1}
+.cb .d{font-size:15px;line-height:1.45;color:var(--muted)}
+.cb .foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding-top:14px}
+
+/* promo band */
+.band{background:var(--green);color:var(--cream)}
+.band .wrap{min-height:280px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:32px;padding-top:48px;padding-bottom:48px}
+.band .l{display:flex;align-items:center;gap:40px;flex-wrap:wrap}
+.band .big{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(110px,14vw,168px);line-height:.8;color:var(--clay);letter-spacing:-.02em}
+.band h3{font-size:44px;line-height:1}
+.band .serif{font-size:22px;opacity:.9;max-width:560px;margin-top:10px}
+.band .btn{min-height:60px;padding:0 34px;font-size:18px}
+
+/* guide */
+.guide-intro{max-width:460px;font-size:22px;line-height:1.45;color:var(--body)}
+.gi{border-top:3px solid var(--ink);padding-top:24px;display:flex;flex-direction:column;gap:16px}
+.gi .n{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:14px;letter-spacing:.2em;color:var(--muted)}
+.gi h3{font-size:32px}
+.gi p{font-size:16px;line-height:1.55;color:var(--body)}
+
+/* accessories */
+.acc{background:var(--sand)}
+.ac{background:#fff;padding:28px;display:flex;flex-direction:column;gap:12px;border-radius:2px;min-height:340px}
+.ac h3{font-size:26px;line-height:1}
+.ac p{font-size:15px;line-height:1.5;color:var(--muted)}
+.ac .pr{margin-top:auto;display:flex;flex-direction:column;gap:2px}
+.ac .pr span{font-size:14px;color:var(--muted)}
+.ac .pr b{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:26px}
+.todo{background:#FFF4D6;color:#6B4E00;padding:2px 6px;border-radius:2px}
+
+/* about */
+.about{background:var(--green);color:var(--cream)}
+.about .wrap{display:grid;grid-template-columns:520px 1fr;gap:80px;padding-top:96px;padding-bottom:96px}
+.ph{min-height:420px;border:1px solid rgba(244,239,230,.35);display:flex;align-items:center;justify-content:center;text-align:center;padding:40px;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:16px;letter-spacing:.16em;text-transform:uppercase;color:rgba(244,239,230,.75)}
+.about .c{display:flex;flex-direction:column;gap:28px}
+.about .eyebrow{color:var(--clay-l)}
+.about h2{font-size:clamp(40px,5vw,64px)}
+.about h2 em{font-style:normal;color:var(--clay-l)}
+.about p{max-width:640px;font-size:18px;line-height:1.6}
+.about .serif{font-size:20px;opacity:.9}
+.team{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:8px}
+.team div{border-top:1px solid rgba(244,239,230,.35);padding-top:18px;display:flex;flex-direction:column;gap:4px;font-size:15px}
+.team b{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:26px;text-transform:uppercase}
+.team span{opacity:.8}
+
+/* stores */
+.stores .wrap{display:grid;grid-template-columns:420px 1fr;gap:80px}
+.stores .l{display:flex;flex-direction:column;gap:20px;align-items:flex-start}
+.stores .l p{font-size:17px;line-height:1.55;color:var(--body)}
+.board{background:var(--green);color:#fff;border-radius:2px;padding:8px 32px 16px;overflow-x:auto}
+table{width:100%;border-collapse:collapse}
+th{text-align:left;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.3);font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:14px;letter-spacing:.2em;text-transform:uppercase;color:var(--clay-l)}
+td{padding:12px 0;border-bottom:1px solid rgba(255,255,255,.14)}
+td.city{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:16px;letter-spacing:.12em;text-transform:uppercase;opacity:.85;width:180px}
+td.name{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:22px;text-transform:uppercase}
+td.map{text-align:right}td.map a{font-size:15px}
+th:last-child{text-align:right}
+
+/* footer */
+footer{background:var(--ink);color:var(--cream)}
+footer .wrap{padding-top:72px;padding-bottom:32px;display:flex;flex-direction:column;gap:48px}
+.ft{display:flex;flex-wrap:wrap;justify-content:space-between;gap:40px}
+.ft .brand{display:flex;flex-direction:column;gap:12px}
+.ft .brand b{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:56px;line-height:1;color:var(--clay)}
+.ft .brand span{font-size:20px}
+.cols{display:flex;flex-wrap:wrap;gap:40px 96px;font-size:16px;line-height:2}
+.cols div{display:flex;flex-direction:column}
+.cols .h{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:14px;letter-spacing:.2em;text-transform:uppercase;color:var(--clay-l)}
+.cols a{text-decoration:none}.cols a:hover{text-decoration:underline}
+.legal{border-top:1px solid rgba(244,239,230,.2);padding-top:22px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;font-size:14px;opacity:.7}
+
+/* floating whatsapp */
+.wa-float{position:fixed;right:20px;bottom:20px;z-index:30;width:60px;height:60px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+
+/* reveal */
+/* content is always visible; the entrance animation only plays when the browser confirms the element scrolled into view */
+.rv.anim{animation:rise .6s ease both}
+@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.rv.anim{animation:none}}
+
+/* responsive */
+@media (max-width:1180px){
+  :root{--pad:40px}
+  .menu{display:none}
+  .grid4{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .about .wrap,.stores .wrap{grid-template-columns:1fr;gap:48px}
+  .ph{min-height:280px}
+}
+@media (max-width:900px){
+  .hero .wrap{grid-template-columns:1fr;min-height:0}
+  .hero-copy{padding:64px 0 24px}
+  .court{min-height:460px}
+  .featured{right:auto;left:0;bottom:24px}
+  .filters{align-items:flex-start}
+}
+@media (max-width:600px){
+  :root{--pad:16px}
+  .nav{height:64px}
+  .logo b{font-size:32px}.logo span{display:none}
+  .nav .btn{min-height:44px;padding:0 14px;font-size:15px}
+  .grid4,.team{grid-template-columns:1fr}
+  .featured{width:100%}
+  .sec{padding:64px 0 72px}
+  .board{padding:4px 16px 12px}
+  td.city{width:auto;font-size:13px}
+  td.name{font-size:18px}
+  .wa-float{display:flex}
+}
+</style>
+</head>
+<body>
+
+<div class="promo"><b>Promo 3x2</b><span>Comprando 2 artículos del mismo precio te llevás 3</span><span aria-hidden="true" style="opacity:.5">·</span><span>Envío gratis a todo el país</span></div>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#top" aria-label="L-TEC inicio"><b>L-TEC</b><span>Premium · Argentina</span></a>
+    <nav class="menu" aria-label="Principal">
+      <a href="#cuerdas">Cuerdas</a><a href="#guia">Guía de cuerdas</a><a href="#accesorios">Accesorios</a><a href="#nosotros">Nosotros</a><a href="#donde">Dónde comprar</a>
+    </nav>
+    <a class="btn btn-clay" href="https://wa.me/5493416830332" target="_blank" rel="noopener">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.6 7.3L3 20l1.3-5.1A8.4 8.4 0 1 1 21 11.5z"/></svg>Consultar
+    </a>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-copy">
+      <div class="eyebrow">Cuerdas premium · Diseño francés · Fabricación alemana</div>
+      <h1>Low Tension.<br>Energy<br>Control.</h1>
+      <p>Ocho modelos de co-poliéster para cada tipo de juego, del jugador que empieza al profesional. Desde Rosario a todo el país.</p>
+      <div class="ctas">
+        <a class="btn btn-white" href="#cuerdas">Ver las cuerdas</a>
+        <a class="btn btn-ghost" href="https://wa.me/5493416830332" target="_blank" rel="noopener">Hablar con un asesor</a>
+      </div>
+    </div>
+    <div class="court">
+      <svg viewBox="0 0 720 720" preserveAspectRatio="xMidYMid meet" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round" aria-hidden="true">
+        <polygon points="210,120 510,120 700,700 20,700"/>
+        <line x1="240" y1="120" x2="100" y2="700"/><line x1="480" y1="120" x2="620" y2="700"/>
+        <line x1="213" y1="230" x2="507" y2="230"/><line x1="153" y1="480" x2="567" y2="480"/>
+        <line x1="360" y1="230" x2="360" y2="480"/><line x1="360" y1="120" x2="360" y2="132"/><line x1="360" y1="688" x2="360" y2="700"/>
+        <line x1="128" y1="330" x2="592" y2="330" stroke-width="6"/><line x1="128" y1="330" x2="128" y2="290" stroke-width="5"/><line x1="592" y1="330" x2="592" y2="290" stroke-width="5"/><line x1="128" y1="292" x2="592" y2="292" stroke-width="2" opacity=".6"/>
+      </svg>
+      <div class="ball" aria-hidden="true"></div>
+      <div class="featured">
+        <div class="k">Modelo destacado</div>
+        <h3>Glaciar MP 5S</h3>
+        <div class="m">1.25 / 1.30 mm · Speed Spin · Rollo 250 m</div>
+        <div class="row"><span class="price">AR$ 200.000</span><a href="https://wa.me/5493416830332?text=Hola%2C%20quiero%20consultar%20por%20Glaciar%20MP%205S" target="_blank" rel="noopener">Consultar →</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="cuerdas" class="sec">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="t"><div class="eyebrow">La colección</div><h2>Encontrá tu cuerda</h2></div>
+      <div class="filters">
+        <div class="chips" role="group" aria-label="Filtrar cuerdas" id="chips"></div>
+        <div class="count" id="count" aria-live="polite"></div>
+      </div>
+    </div>
+    <div class="grid4" id="grid"></div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="l">
+      <div class="big">3x2</div>
+      <div><h3>Llevás 3, pagás 2</h3><p class="serif">Comprando 2 artículos del mismo precio, el tercero va de regalo. Y el envío es gratis.</p></div>
+    </div>
+    <a class="btn btn-cream" href="https://wa.me/5493416830332?text=Hola%2C%20quiero%20aprovechar%20la%20promo%203x2" target="_blank" rel="noopener">Aprovechar la promo</a>
+  </div>
+</section>
+
+<section id="guia" class="sec">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="t"><div class="eyebrow">Guía de cuerdas</div><h2>Cuatro formas<br>de pegarle</h2></div>
+      <p class="serif guide-intro">La misma base de copolímero alemán; lo que cambia es la forma de la cuerda y lo que le hace a la pelota.</p>
+    </div>
+    <div class="grid4">
+      <div class="gi rv">
+        <svg width="96" height="96" viewBox="0 0 96 96" fill="none" stroke="#C4532B" stroke-width="3" aria-hidden="true"><circle cx="48" cy="48" r="34"/><circle cx="48" cy="48" r="4" fill="#C4532B"/></svg>
+        <div class="n">01</div><h3>Redondas</h3>
+        <p>Monofilamento de copolímero liso con microfilamentos de carbono: polivalencia, control y buen mantenimiento de la tensión. La mezcla con etileno suma velocidad de pelota y confort.</p>
+      </div>
+      <div class="gi rv">
+        <svg width="96" height="96" viewBox="0 0 96 96" fill="none" stroke="#C4532B" stroke-width="3" stroke-linejoin="round" aria-hidden="true"><polygon points="48,14 80,38 68,78 28,78 16,38"/></svg>
+        <div class="n">02</div><h3>Perfiladas</h3>
+        <p>Los mismos componentes con sección perfilada: las aristas muerden la pelota e imprimen más efecto y velocidad. Sirven al jugador de alto rendimiento y al que recién empieza.</p>
+      </div>
+      <div class="gi rv">
+        <svg width="96" height="96" viewBox="0 0 96 96" fill="none" stroke="#C4532B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><polygon points="48,22 72,62 24,62"/><path d="M20 34 A34 34 0 0 1 60 15"/><path d="M76 62 A34 34 0 0 1 40 82"/></svg>
+        <div class="n">03</div><h3>Perfiladas y torsionadas</h3>
+        <p>Perfil más torsión: una superficie rugosa que genera mucho efecto y, al mismo tiempo, gran control del golpe.</p>
+      </div>
+      <div class="gi rv">
+        <svg width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-width="4" stroke-linecap="round" aria-hidden="true"><g stroke="#C4532B"><line x1="30" y1="12" x2="30" y2="84"/><line x1="48" y1="12" x2="48" y2="84"/><line x1="66" y1="12" x2="66" y2="84"/></g><g stroke="#0E4A3A"><line x1="12" y1="30" x2="84" y2="30"/><line x1="12" y1="48" x2="84" y2="48"/><line x1="12" y1="66" x2="84" y2="66"/></g></svg>
+        <div class="n">04</div><h3>Híbridas</h3>
+        <p>Dos cuerdas L-TEC / Enduro combinadas: una para las verticales y otra para las horizontales, para sumar lo mejor de cada una. Un sistema que usan muchos profesionales.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="accesorios" class="sec acc">
+  <div class="wrap">
+    <div class="sec-head rv"><div class="t"><div class="eyebrow">Para el encordador</div><h2>Grips y accesorios</h2></div></div>
+    <div class="grid4">
+      <article class="ac rv">
+        <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#0E4A3A" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M9 2h6v20H9z"/><path d="M9 6l6 3M9 10l6 3M9 14l6 3M9 18l6 3"/></svg>
+        <h3>Cubre grip Premium</h3><p>Desarrollado y fabricado en Argentina con insumos alemanes. Muy buen agarre y absorción.</p>
+        <div class="pr"><span>Pack x50</span><b>AR$ 160.000</b></div>
+      </article>
+      <article class="ac rv">
+        <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#0E4A3A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l7-7M11 13l3-9 3 1-3 9zM11 13l9 3-1 3-9-3"/></svg>
+        <h3>Pinzas Stringway</h3><p>Doble y triple. Pinzas holandesas para encordar sin marcar las cuerdas ni perder tensión.</p>
+        <div class="pr"><span>Las dos pinzas</span><b>AR$ 300.000</b></div>
+      </article>
+      <article class="ac rv">
+        <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#0E4A3A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="8" rx="6" ry="6"/><path d="M12 14v4M6 22h12M9 18h6"/></svg>
+        <h3>Máquina de encordar Bartom</h3><p><span class="todo">[Ficha técnica: tipo de tensor, sujeción, garantía]</span></p>
+        <div class="pr"><span>Unidad</span><b>AR$ 700.000</b></div>
+      </article>
+      <article class="ac rv">
+        <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#0E4A3A" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/></svg>
+        <h3>Sets individuales</h3><p>Cuerda L-TEC en sets de 12 m, listos para un encordado.</p>
+        <div class="pr"><span>Pack x10</span><b>AR$ 140.000</b></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="nosotros" class="about">
+  <div class="wrap">
+    <div class="ph rv">[Foto: Saúl Erlicher encordando o el equipo en cancha]</div>
+    <div class="c rv">
+      <div class="eyebrow">Nosotros</div>
+      <h2>Nacida en Francia.<br>Fabricada en Alemania.<br><em>Encordada en Argentina.</em></h2>
+      <p>L-TEC nació en Francia de la mano del australiano John Elliott y el argentino Saúl Erlicher, creadores profesionales de cuerdas y cubre grips. Las cuerdas se desarrollan y fabrican en Alemania con tecnología de vanguardia; desde Rosario llegan a clubes, encordadores y jugadores de todo el país.</p>
+      <div class="serif">Venta mayorista y minorista · Contratos profesionales · Envíos a todo el país</div>
+      <div class="team">
+        <div><b>Saúl Erlicher</b><span>Director general · Rosario</span><a href="https://wa.me/5493416830332" target="_blank" rel="noopener">+54 9 341 683-0332</a></div>
+        <div><b>Mariano Larripa</b><span>Subdirector · CABA</span><a href="https://wa.me/5491151803557" target="_blank" rel="noopener">+54 9 11 5180-3557</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="donde" class="sec stores">
+  <div class="wrap">
+    <div class="l rv">
+      <div class="eyebrow">Puntos de venta</div>
+      <h2>Dónde comprar</h2>
+      <p>Ocho tiendas y encordadores en cinco ciudades. ¿Tenés un club o una tienda? Sumate como punto de venta.</p>
+      <a class="btn btn-ink" href="https://wa.me/5493416830332?text=Hola%2C%20quiero%20ser%20punto%20de%20venta%20L-TEC" target="_blank" rel="noopener">Quiero vender L-TEC</a>
+    </div>
+    <div class="board rv">
+      <table>
+        <thead><tr><th scope="col">Ciudad</th><th scope="col">Tienda</th><th scope="col">Mapa</th></tr></thead>
+        <tbody id="stores"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="ft">
+      <div class="brand"><b>L-TEC</b><span class="serif">Desde Argentina para todo el mundo.</span></div>
+      <div class="cols">
+        <div><span class="h">Tienda</span><a href="#cuerdas">Cuerdas</a><a href="#accesorios">Grips y accesorios</a><a href="#guia">Guía de cuerdas</a></div>
+        <div><span class="h">Contacto</span><a href="https://wa.me/5493416830332" target="_blank" rel="noopener">WhatsApp +54 9 341 683-0332</a><a href="mailto:saulerlicher@hotmail.com">saulerlicher@hotmail.com</a><a href="https://www.youtube.com/channel/UC0g5KNeDXbn9WEPBvvsFalw" target="_blank" rel="noopener">YouTube</a></div>
+      </div>
+    </div>
+    <div class="legal"><span>© 2026 L-TEC Premium Argentina · Rosario, Santa Fe</span><span>Precios en pesos argentinos, sujetos a cambio sin previo aviso</span></div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/5493416830332" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.6 7.3L3 20l1.3-5.1A8.4 8.4 0 1 1 21 11.5z"/></svg>
+</a>
+
+<script>
+(function () {
+  var WA = 'https://wa.me/5493416830332?text=';
+  var products = [
+    { name: 'French Clay', gauge: '1.18 / 1.30', note: '1.18: Speed · 1.30: Speed Spin', material: 'Co-poliéster', length: 'Rollo 200 m', price: 'AR$ 160.000', tags: ['Velocidad', 'Efecto'], cats: ['vel', 'spin'], bg: '#C4532B', fg: '#fff' },
+    { name: 'Silver', gauge: '1.25', note: 'Velocidad y control', material: 'Co-poliéster', length: 'Rollo 200 m', price: 'AR$ 160.000', tags: ['Velocidad', 'Control'], cats: ['vel', 'ctrl'], bg: '#5E6468', fg: '#fff' },
+    { name: 'BLK', gauge: '1.35', note: 'Speed Spin', material: '100% co-poliéster', length: 'Rollo 200 m', price: 'AR$ 160.000', tags: ['Velocidad', 'Efecto'], cats: ['vel', 'spin'], bg: '#1B1A17', fg: '#fff' },
+    { name: 'Elastron 3ST', gauge: '1.28', note: '3 caras torsionadas · Control Spin', material: '100% co-poliéster', length: 'Rollo 200 m', price: 'AR$ 180.000', tags: ['Control', 'Efecto'], cats: ['ctrl', 'spin'], bg: '#0E4A3A', fg: '#fff' },
+    { name: 'Flower Power 8S', gauge: '1.30', note: 'Spin Control', material: 'Co-poliéster', length: 'Rollo 200 m', price: 'AR$ 160.000', tags: ['Efecto', 'Control'], cats: ['spin', 'ctrl'], bg: '#9E3F1F', fg: '#fff' },
+    { name: 'Orión', gauge: '1.25 / 1.30', note: 'Especial anti tennis elbow', material: 'Co-poliéster monofilamento', length: 'Rollo 250 m', price: 'AR$ 200.000', tags: ['Confort'], cats: ['comf'], bg: '#E8DFD0', fg: '#1B1A17', dark: true },
+    { name: 'Glaciar MP 5S', gauge: '1.25 / 1.30', note: 'Speed Spin', material: 'Co-poliéster', length: 'Rollo 250 m', price: 'AR$ 200.000', tags: ['Velocidad', 'Efecto'], cats: ['vel', 'spin'], bg: '#2F5E6E', fg: '#fff' },
+    { name: 'Enduro Gold', gauge: '1.30', note: 'Control', material: 'Poliéster', length: 'Rollo 200 m', price: 'AR$ 70.000', tags: ['Control'], cats: ['ctrl'], bg: '#C9A445', fg: '#1B1A17', dark: true }
+  ];
+  var filters = [['all', 'Todas'], ['vel', 'Velocidad'], ['spin', 'Efecto'], ['ctrl', 'Control'], ['comf', 'Confort']];
+  var stores = [['Rosario', 'Halcry'], ['Rosario', 'ApShop'], ['Rosario', 'Victoria Deportes'], ['CABA', 'Mariano Larripa'], ['San Lorenzo', 'Footing Deportes'], ['Córdoba', 'Open Tenis'], ['Córdoba', 'Cuarentaquince'], ['Río Cuarto', 'Carlos Herrero']];
+
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+  var grid = document.getElementById('grid');
+  grid.innerHTML = products.map(function (p, i) {
+    var wa = WA + encodeURIComponent('Hola, quiero consultar por la cuerda L-TEC ' + p.name);
+    return '<article class="card rv" data-i="' + i + '">' +
+      '<div class="vis' + (p.dark ? ' dark-lines' : '') + '" style="background-color:' + p.bg + ';color:' + p.fg + '">' +
+      '<div class="l">Calibre</div><div class="g"><b>' + esc(p.gauge) + '</b><span>mm</span></div></div>' +
+      '<div class="cb"><div class="tags">' + p.tags.map(function (t) { return '<span class="tag">' + esc(t) + '</span>'; }).join('') + '</div>' +
+      '<h3>' + esc(p.name) + '</h3>' +
+      '<div class="d">' + esc(p.note) + '<br>' + esc(p.material) + ' · ' + esc(p.length) + '</div>' +
+      '<div class="foot"><span class="price">' + esc(p.price) + '</span><a class="btn btn-green" href="' + wa + '" target="_blank" rel="noopener">Consultar</a></div></div></article>';
+  }).join('');
+
+  var chips = document.getElementById('chips');
+  var count = document.getElementById('count');
+  chips.innerHTML = filters.map(function (f) {
+    var n = f[0] === 'all' ? products.length : products.filter(function (p) { return p.cats.indexOf(f[0]) >= 0; }).length;
+    return '<button type="button" class="chip" data-f="' + f[0] + '" aria-pressed="' + (f[0] === 'all') + '">' + f[1] + ' <span>' + n + '</span></button>';
+  }).join('');
+
+  function apply(f) {
+    var shown = 0;
+    grid.querySelectorAll('.card').forEach(function (el) {
+      var p = products[+el.dataset.i];
+      var ok = f === 'all' || p.cats.indexOf(f) >= 0;
+      el.hidden = !ok;
+      if (ok) shown++;
+    });
+    chips.querySelectorAll('.chip').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.f === f)); });
+    count.textContent = 'Mostrando ' + shown + ' de ' + products.length + ' modelos · precios por rollo';
+  }
+  chips.addEventListener('click', function (e) {
+    var b = e.target.closest('.chip');
+    if (b) apply(b.dataset.f);
+  });
+  apply('all');
+
+  document.getElementById('stores').innerHTML = stores.map(function (s) {
+    var map = 'https://www.google.com/maps/search/' + encodeURIComponent(s[1] + ' ' + s[0]);
+    return '<tr><td class="city">' + esc(s[0]) + '</td><td class="name">' + esc(s[1]) + '</td><td class="map"><a href="' + map + '" target="_blank" rel="noopener">Ver →</a></td></tr>';
+  }).join('');
+
+  // Progressive enhancement: never hide content. Only elements that start below
+  // the fold get a one-time entrance animation when they scroll into view.
+  if ('IntersectionObserver' in window) {
+    var vh = window.innerHeight || 800;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add('anim'); io.unobserve(en.target); }
+      });
+    }, { threshold: 0.05 });
+    document.querySelectorAll('.rv').forEach(function (el) {
+      if (el.getBoundingClientRect().top > vh) io.observe(el);
+    });
+  }
+})();
+</script>
+</body>
+</html>
